@@ -263,7 +263,7 @@ text-decoration: none;
 text-align: center;
 color: #838383;
 font-size: 12px;
-margin:95px;
+margin:75px;
 }
 
 .heart {
@@ -283,4 +283,22 @@ font-size:20px;
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   
+}
+
+/* ABOUT PAGE */
+
+@media (max-width: 900px) {
+
+.about-hero-headline {
+padding-left: 5px;
+
+
+}
+
+}
+
+.triangle-down-row {
+
+margin: 0!important;
+padding:0!important;
 }
