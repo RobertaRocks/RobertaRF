@@ -53,6 +53,14 @@ padding-top: 170px;
 padding-left: 90px;
 padding-bottom:150px;
 
+-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+
+
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+ 
 }
 
 .homepage-hero h1 {
