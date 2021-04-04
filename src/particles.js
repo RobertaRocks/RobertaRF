@@ -27,13 +27,13 @@ var pJS = function(tag_id, params){
         }
       },
       color: {
-        value: '#838383'
+        value: '#fff'
       },
       shape: {
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#838383'
+          color: '#ff0000'
         },
         polygon: {
           nb_sides: 5
@@ -67,7 +67,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#838383',
+        color: '#fff',
         opacity: 1,
         width: 1
       },
@@ -1507,7 +1507,7 @@ window.particlesJS = function(tag_id, params){
 
   /* set size canvas */
   canvas_el.style.width = "100%";
-  canvas_el.style.height = "200%";
+  canvas_el.style.height = "100%";
 
   /* append canvas */
   var canvas = document.getElementById(tag_id).appendChild(canvas_el);
