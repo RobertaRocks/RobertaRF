@@ -192,8 +192,9 @@ text-align: center;
 text-align: center;
 }
 
-.big-title {
-font-size: large;
+.big-title  {
+font-size: 35px !important;
+
 }
 
 }
