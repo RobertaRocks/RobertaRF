@@ -26,6 +26,16 @@
 <title>Performance Marketing & Ecommerce - Roberta Francesconi</title>
 <meta class="description" content="E-commerce Manager and Digital Marketing Director. Passionate about Performance Marketing and Front-end development. Open to new job opportunities!">
 
+<script>
+$(document).ready(function() {
+    $('#fadein').fadeIn(1000);
+});
+
+$(document).ready(function() {
+    $('#fadeinlong').fadeIn(1000);
+});
+
+</script>
 
 </head>
 
@@ -74,10 +84,10 @@
 
 
 <!-- Homepage Hero -->
-<div class="homepage-hero" >
+<div class="homepage-hero" id="fadein" style="display:none">
 <h1>Hello, World.<br/>
 I'm <span class="highlighted-word">Roberta</span>.<br/>
-A Digital Marketing Manager
+A Digital Marketeer
 <br/> from Italy. <br/>
 </h1> 
 </div>
@@ -85,14 +95,14 @@ A Digital Marketing Manager
       
 <!-- CTA Buttons -->
 
-        <div class="m-5"></div>
+        <div class="m-5 hp-link"></div>
 
-        <div class="row text-center">
-            <div class="col-lg-4 mb-4 button-container"><a class="button" href="/pages/about.html" title="Contact Roberta Francesconi">
+        <div class="row text-center hp-link">
+            <div class="col-lg-4 mb-4 button-container hp-link"><a class="hp-link social-icon " href="/pages/about.html" title="Contact Roberta Francesconi">
             ABOUT ME</a></div><br>
-            <div class="col-lg-4 mb-4 button-container"><a class="button" href="/pages/projects.html" title="Contact Roberta Francesconi">
+            <div class="col-lg-4 mb-4 button-container hp-link"><a class="hp-link social-icon" href="/pages/projects.html" title="Contact Roberta Francesconi">
             PROJECTS</a></div><br>
-            <div class="col-lg-4 mb-4 button-container"><a class="button" href="/pages/contact.html" title="Contact Roberta Francesconi">
+            <div class="col-lg-4 mb-4 button-container hp-link"><a class="hp-link social-icon" href="/pages/contact.html" title="Contact Roberta Francesconi">
             CONTACTS</a></div><br>
             </div>
         </div>
@@ -103,7 +113,7 @@ A Digital Marketing Manager
 <div class="footer">© 2021 Proudly built with <span class="heart">♥︎</span> by me </div>
 
 <!-- Side names scrolling -->
-<div class="social-icon-bar text-center">
+<div class="social-icon-bar text-center" id="fadeinlong" style="display:none">
 <a href="mailto:roberta.francesconi@gmail.com" class="email-link"><i class="far fa-envelope fa-2x fixed-icon"></i></a><br>
 <a href="https://www.linkedin.com/in/robertafrancesconi/" class="social-icon " target="_blank"><i class="fab fa-linkedin-in fa-2x fixed-icon"></i></a><br>
 <a href="https://github.com/RobertaRocks" class="social-icon " target="_blank"><i class="fab fa-github fa-2x fixed-icon"></i></a>
