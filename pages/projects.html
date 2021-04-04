@@ -18,18 +18,23 @@
 <!-- SEO meta title and meta description -->
 <title>Performance Marketing & Ecommerce - Roberta Francesconi</title>
 <meta class="description" content="E-commerce Manager and Digital Marketing Director. Passionate about Performance Marketing and Front-end development. Open to new job opportunities!">
+<!-- Scrip AOS https://michalsnik.github.io/aos/ -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
 <!-- Boostrap Container -->
 <div class="container-fluid">
-
+<script>
+  AOS.init();
+</script>
 
 
 <!-- Navbar Bootstrap fixed-top-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white fixed-top">
   <div class="container">
-    <a class="navbar-brand highlighted-word text-white" href="#"> R </a>
+    <a class="navbar-brand highlighted-word text-white" href="../index.html"> R </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -56,14 +61,17 @@
     
 
 <!-- Triangle decoration -->
-    <div class="triangle-down d-block m-5"></div>
+    <div class="triangle-down d-block m-5" id="projects"></div>
 
 <!--  Personal Projects -->
-<div class="text-center maxi-headline p-2 mb-5"id="projects">...My Personal Projects</div>
-<div class="row p-2" >
+<div class="text-center maxi-headline p-2 mb-5">...My Personal Projects</div>
 
-    <div class="col-lg m-2 p-2 text-center"> 
-        <a href="https://www.instagram.com/ladolcelingerie" class="big-title">La Dolce Lingerie</a>
+<div class="container " >
+<div class="row p-2 justify-content-center" >
+
+    <div class="col-5 m-2 p-2 text-center" data-aos="fade-in" data-aos-delay="50"
+    data-aos-duration="1500"> 
+        <a href="https://www.instagram.com/ladolcelingerie" class="big-title" target="_blank"  >La Dolce</br>Lingerie</a>
         <div class="mb-3 p-2 ">Founder<br/>
         Scouting the best underwear & loungewear brands to shop online.
         </div>
@@ -73,51 +81,69 @@
         
     </div>
 
-    <div class="col-lg m-2 p-2 text-center"> 
-            <a ref="https://www.instagram.com/roverstories/" class="big-title">Rover Stories</a>
+    <div class="col-5 m-2 p-2 text-center" data-aos="fade-in" data-aos-delay="300"
+    data-aos-duration="1500"> 
+            <a ref="https://www.instagram.com/roverstories/" class="big-title" target="_blank"  >Rover</br>Stories</a>
             <div class="mb-3 p-2 ">Co-Founder<br/>
-            Travel stories on a Defender, across mountains, desert, coasts.
+            Travel stories on a Land Rover, across mountains, desert, coasts.
             </div>        
             <a href="https://www.instagram.com/roverstories/" class="social-icon fab fa-instagram fa-2x mb-5" target="_blank"></a>
             
     </div>
 
-    <div class="col-lg m-2 p-2 text-center"> 
-            <a href="https://roberta-react.netlify.app/" class="big-title">Weather App</a>
+    <div class="col-5 m-2 p-2 text-center" data-aos="fade-in" data-aos-delay="600"
+    data-aos-duration="1500"> 
+            <a href="https://roberta-react.netlify.app/" class="big-title" target="_blank"  >Weather</br>App</a>
             <div class="mb-3 p-2 ">React developer</br>
-            Built my own weather APP using React programming language and using real API.
+            Built my own weather APP using React programming language and using real APIs.
             </div>
             <a href="https://roberta-react.netlify.app/" class="social-icon fas fa-external-link-alt fa-2x" target="_blank"></a>
             
     </div>
 
-    
+     <div class="col-5 m-2 p-2 text-center" data-aos="fade-in" data-aos-delay="900"
+    data-aos-duration="1500"> 
+            <a href="https://robertaswords.netlify.app/" class="big-title" target="_blank"  >Dictionary</br>App</a>
+            <div class="mb-3 p-2 ">React developer</br>
+            Built my own dictionary APP using React programming language and using real APIs.
+            </div>
+            <a href="https://robertaswords.netlify.app/" class="social-icon fas fa-external-link-alt fa-2x" target="_blank"></a>
+            
+    </div>
 
+</div>
 </div>
 
 
-<!-- Triangle decoration -->
-    <div class="triangle-down d-block m-5"></div>
-
+<!-- Divider -->
+<div class="big-divider"></div>
 
 <!-- CTA Buttons -->
 
-    <div class="m-5"></div>
+    <div class="divider"></div>
 
-        <div class="row text-center">
-            <div class="col-lg-4 mb-4 button-container"><a class="button" href="/pages/about.html" title="Contact Roberta Francesconi">
-            ABOUT ME</a></div><br>
-            <div class="col-lg-4 mb-4 button-container"><a class="button" href="/pages/projects.html" title="Contact Roberta Francesconi">
-            PROJECTS</a></div><br>
-            <div class="col-lg-4 mb-4 button-container"><a class="button" href="/pages/contact.html" title="Contact Roberta Francesconi">
+        <div class="row m-5 hp-link text-center">
+            <div class="col-sm-4 mb-4 hp-link"><a class="hp-link" href="../index.html" title="Contact Roberta Francesconi">
+            HOME</a></div><br>
+            <div class="col-sm-4 mb-4 hp-link"><a class="hp-link" href="/pages/about.html" title="About Roberta Francesconi">
+            ABOUT</a></div><br>
+            <div class="col-sm-4 mb-4 hp-link"><a class="hp-link" href="/pages/contact.html" title="Contact Roberta Francesconi">
             CONTACTS</a></div><br>
+
             </div>
         </div>
 
-<div class="social-icon back-to-top"><a href="#"class="email-link  fas fa-chevron-circle-up fa-2x"></a></div>
+<!-- Divider -->
+<div class="divider m-5"></div>
 
 <!-- Footer -->
-<div class="footer">© 2021 Proudly built with <span class="heart">♥︎</span> by me </div>
+   
+<img src="../img/R.png" alt="Roberta profile picture" class="logo-r">
+    
+<div class="footer">
+© 2021 proudly handmade with <i class="far fa-heart heart"></i> by me</div>
+<div class="social-icon back-to-top"><a href="#projects"class="email-link  fas fa-chevron-circle-up fa-2x"></a></div>
+
 
 </div>
 </body>

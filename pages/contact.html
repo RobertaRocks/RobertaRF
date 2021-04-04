@@ -18,9 +18,16 @@
 <!-- SEO meta title and meta description -->
 <title>Contacts</title>
 <meta class="description" content="E-commerce Manager and Digital Marketing Director. Passionate about Performance Marketing and Front-end development. Open to new job opportunities!">
+<!-- Scrip AOS https://michalsnik.github.io/aos/ -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
+<script>
+  AOS.init();
+</script>
+
 <!-- Boostrap Container -->
 <div class="container-fluid">
 
@@ -29,7 +36,7 @@
 <!-- Navbar Bootstrap fixed-top-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white fixed-top">
   <div class="container">
-    <a class="navbar-brand highlighted-word text-white" href="#"> R </a>
+    <a class="navbar-brand highlighted-word text-white" href="/index.html"> R </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,7 +49,7 @@
           <a class="nav-link" href="/pages/about.html" title="About Roberta Francesconi">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages/projects.html" title="Roberta Francesconi Personal Projects">Personal Projects</a>
+          <a class="nav-link" href="/pages/projects.html" title="Roberta Francesconi Personal Projects">Projects</a>
         </li>
          <li class="nav-item">
           <a class="nav-link active" href="#" title="Contact Roberta Francesconi">Contacts</a>
@@ -53,46 +60,75 @@
 </nav>
 
 
-<!-- Profile pic and Headline -->
-<div class="mt-5 pt-5"></div>
+<!-- Headline -->
+<div class="mt-5 pt-5" id="contact"></div>
+<h2 class="mb-5 text-center headline mt-5 maxi-headline "> Get in Touch </h2>
+<!--  Contact Section -->
+    <div class="contacts-icons d-flex justify-content-center">
+        <a href="mailto:roberta.francesconi@gmail.com" class="email-link"><i class="far fa-envelope fa-2x m-4 moving-icons"></i><br>
+        </a>
+      
+        <a href="https://www.linkedin.com/in/robertafrancesconi/" class="social-icon" target="_blank"><i class="fab fa-linkedin fa-2x m-4 moving-icons"></i><br>
+       </a>
+        
+        <a href="https://github.com/RobertaRocks" class="social-icon" target="_blank"><i class="fab fa-github fa-2x m-4 moving-icons"></i><br>
+        </a>
+    </div> 
 
-        <h2 class="mb-5 text-center headline mt-5 " > Contacts </h2>
-  
-    
-
+<!-- Divider -->
+<div class="divider m-5"></div>
 
 <!-- Triangle decoration -->
-<div class="row">
+<div class="row m-5" >
+<div class="col-12">
+    <div class="triangle-down d-block m-1 m-5" data-aos="fade-down"
+     data-aos-delay="50"
+    data-aos-duration="2000"></div>
+    <h3 class="col-12 contact-section" id="contact" > 
+    If you are starting a business or stuck in the middle and looking for a creative <span class="highlighted-word">Digital Marketer </span> to develop your business or want to increase your ROI, you are at the right place at the right time.
+    </h3>
 
-<div class="col-10">
-    <div class="triangle-down d-block m-5"></div>
 </div>
 </div>
 
-<!--  Contact Section -->
-<div class="row contacts p-3" id="contact">
-    <div class="col-lg-6 m-1 p-2"> 
-        <h3 class="p-2" > 
-        If you are starting a business or stuck in the middle and looking for a creative Digital Marketer to <span class="highlighted-word">develop</span> your business or want to increase your ROI, you are at the right place at the right time.
-        </h3>
-        <div class="p-2 contacts-icons">
-        <a href="mailto:roberta.francesconi@gmail.com" class="email-link"><i class="far fa-envelope fa-2x"></i><br>
-        roberta.francesconi@gmail.com</a>
-        <br/><br/>
-        <a href="https://www.linkedin.com/in/robertafrancesconi/" class="social-icon" target="_blank"><i class="fab fa-linkedin fa-2x "></i><br>
-        Linkedin</a>
-        <br/><br/>
-        <a href="https://github.com/RobertaRocks" class="social-icon" target="_blank"><i class="fab fa-github fa-2x"></i><br>
-        GitHub</a>
-        </div> 
-    </div>
-    <div class="col-lg-5 text-left m-1 maxi-headline p-5">Get in Touch</div>
-</div>
+
+ 
+  
+
+
+
+
 
 <div class="social-icon back-to-top"><a href="#"class="email-link  fas fa-chevron-circle-up fa-2x"></a></div>
 
+
+
+<!-- Divider -->
+<div class="big-divider"></div>
+
+<!-- CTA Buttons -->
+
+    <div class="divider"></div>
+
+        <div class="row m-5 hp-link text-center">
+            <div class="col-sm-4 mb-4 hp-link"><a class="hp-link" href="../index.html" title="Contact Roberta Francesconi">
+            HOME</a></div><br>
+            <div class="col-sm-4 mb-4 hp-link"><a class="hp-link" href="/pages/about.html" title="About Roberta Francesconi">
+            ABOUT</a></div><br>
+            <div class="col-sm-4 mb-4 hp-link"><a class="hp-link" href="/pages/projects.html" title="Contact Roberta Francesconi">
+            PROJECTS</a></div><br>
+
+            </div>
+        </div>
 <!-- Footer -->
-<div class="footer">© 2021 Proudly built with <span class="heart">♥︎</span> by me </div>
+   
+<img src="../img/R.png" alt="Roberta profile picture" class="logo-r">
+    
+<div class="footer">
+© 2021 proudly handmade with <i class="far fa-heart heart"></i> by me</div>
+<div class="social-icon back-to-top"><a href="#contact"class="email-link  fas fa-chevron-circle-up fa-2x"></a></div>
+
+
 
 </div>
 </body>

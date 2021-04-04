@@ -18,18 +18,25 @@
 <!-- SEO meta title and meta description -->
 <title>Performance Marketing & Ecommerce - Roberta Francesconi</title>
 <meta class="description" content="E-commerce Manager and Digital Marketing Director. Passionate about Performance Marketing and Front-end development. Open to new job opportunities!">
+ 
+<!-- Scrip AOS https://michalsnik.github.io/aos/ -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
 <body>
 <!-- Boostrap Container -->
 <div class="container-fluid">
 
-
+<script>
+  AOS.init();
+</script>
 
 <!-- Navbar Bootstrap fixed-top-->
 <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
   <div class="container">
-    <a class="navbar-brand highlighted-word text-white" href="#"> R </a>
+    <a class="navbar-brand highlighted-word text-white" href="../index.html"> R </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -53,37 +60,34 @@
 </nav>
 
 
-<!-- Profile pic and Headline -->
-<div class="row m-3 mt-5"id="about">
-    <div class="col-lg-4 d-flex justify-content-center">
-        <img src="../img/Roberta.png" alt="Roberta profile picture" class="img-fluid profile-img">
-       
-       
-    
+<!-- Divider -->
+<div class="divider"></div>
+
+<!--  Headline -->
+<h2 class="mb-5 text-center headline" id="about">Ecommerce // Performance Marketing // Digital Strategy </h2>
+
+<!-- Profile pic and Description -->
+
+<div class="row about-row">
+
+    <div class="col-lg-3 d-flex justify-content-center">
+        <img src="../img/Roberta.png" alt="Roberta profile picture" class="img-fluid profile-img mb-5">
     </div>
 
-    <div class="col-lg-7"> 
-        <div class="about-hero-headline ">
-            <h2 class="mb-5 text-center headline mt-5  " >Ecommerce // Performance Marketing // Digital Strategy </h2>
-            <h3 class="text-left ">I'm passionate about e-commerce, performance marketing and digital strategy. 
-                I also love to build, manage & grow relationships and find new <span class="highlighted-word">solutions</span> to drive new streams of revenue.
-                I worked for many years across Ireland, Netherlands and Italy for multinational corporations like Santoni, Tommy Hilfiger, Calvin Klein and Shinola, as well as 
-                start-ups and agencies.
-            </h3>
+    <div class="col-lg-9"> 
+        <div class="about-hero-headline">
+            <h3 class="text-left ">I'm passionate about e-commerce, performance marketing and digital strategy. <br/>
+                I also love to build, manage & grow relationships and find new solutions to drive new streams of <span class="highlighted-word">revenue</span> . <br/>
+                I worked for many years across Ireland, Netherlands and Italy for <span class="highlighted-word">multinational corporations</span> like Santoni, Tommy Hilfiger, Calvin Klein and Shinola, as well as 
+                <span class="highlighted-word">start-ups & agencies</span>. <br/> I'm performance-driven</span> and a networking lover.
+                I'm currently based in Italy.
+            </span>
         </div>
-
     </div>
 </div>
 
 
-<div class="mt-5 pt-5"></div>
-      <div class="about-hero-headline text-center">
-             <h2 class="mb-5 text-center headline "> About Me </h2>
-            <h3 class="text-right " id="about">I'm performance-driven and a networking lover.<br/> 
-My skills are mostly focused on <span class="highlighted-word">E-commerce // Performance Marketing // Digital Strategy</span>.<br/> 
-I'm currently based in Italy.
-        
-    </div>
+
 
 
     
@@ -93,15 +97,14 @@ I'm currently based in Italy.
 
 
 <!-- What i did  -->
-<div class="row intro-cv m-3"id="my-cv">
-<div class="mb-3 col-lg-4 d-flex justify-content-center" >
-    <img src="../img/Roberta.png" alt="CV"  class="profile-img d-none d-md-block">
-</div>
-<div class="col-lg-7"> 
+<div class="row intro-cv text-center"id="my-cv">
+<div class="col-lg-12"> 
     <h2 class="mb-3 maxi-headline-left">What I did...</h2>
     <h3 class="text-left"> It's been a long journey, but i'll try to recap the main steps. Get ready! </h3>
 </div>
 </div>
+
+
 
 
 <!-- Job Career Boxes -->
@@ -109,8 +112,9 @@ I'm currently based in Italy.
 <!-- Start first Row Job Career Boxes -->
 <div class="row m-2 text-center ">
 
-<div class="col-lg m-2 bg-white  my-cv">
-    <div class="logo mb-logo pb-2">  <img src="../img/L4Y.png"  class="img-fluid" ></div>
+<div class="col-lg bg-white m-2 my-cv" data-aos="fade-down" data-aos-delay="50"
+    data-aos-duration="1000">
+    <div class="logo mb-logo pb-1">  <img src="../img/L4Y.png"  class="img-fluid" ></div>
     <p class="job-descr"> 
     <span class="year-company">2020 - present, Italy</span><br/>
     <b>Marketing Director</b><br/>
@@ -118,7 +122,8 @@ I'm currently based in Italy.
     </p>
 </div>
 
-<div class="col-lg bg-white m-2 my-cv">
+<div class="col-lg bg-white m-2 my-cv" data-aos="fade-down" data-aos-delay="50"
+    data-aos-duration="1000">
     <div class="logo mb-logo pb-1">  <img src="../img/DIS.png"  class="img-fluid" ></div>
     <p class="job-descr"> 
     <span class="year-company">2017 - 2020, Italy</span><br/>
@@ -128,7 +133,8 @@ I'm currently based in Italy.
     </p>
 </div>
 
-<div class="col-lg bg-white m-2 my-cv">
+<div class="col-lg bg-white m-2 my-cv" data-aos="fade-down" data-aos-delay="50"
+    data-aos-duration="1000">
 <div class="logo">  <img src="../img/Shinola.png"  class="img-fluid" ></div>
     <p class="job-descr">
     <span class="year-company">2015-2017, Netherlands</span><br/>
@@ -145,7 +151,8 @@ I'm currently based in Italy.
 <!-- Start second Row Job Career Boxes -->
 <div class="row m-2 text-center">
 
-<div class="col-lg bg-white m-2 my-cv">
+<div class="col-lg bg-white m-2 my-cv" data-aos="fade-right" data-aos-delay="50"
+    data-aos-duration="1000">
 <div class="logo mb-logo">  <img src="../img/CalvinKlein.png"  class="img-fluid" ></div>
     <p class="job-descr">
     <span class="year-company">2014-2015, Netherlands</span><br/>
@@ -155,7 +162,8 @@ I'm currently based in Italy.
     </p>
 </div>
 
-<div class="col-lg bg-white m-2  my-cv">
+<div class="col-lg bg-white m-2  my-cv" data-aos="zoom-in" data-aos-delay="50"
+    data-aos-duration="1000">
 <div class="logo mb-logo">  <img src="../img/TommyHilfiger.png"  class="img-fluid" ></div>
     <p class="job-descr">
     <span class="year-company">2012-2014, Netherlands</span><br/>
@@ -165,7 +173,8 @@ I'm currently based in Italy.
     </p>
 </div>
 
-<div class="col-lg bg-white m-2  my-cv">
+<div class="col-lg bg-white m-2  my-cv" data-aos="fade-left" data-aos-delay="50"
+    data-aos-duration="1000">
 <div class="logo mb-logo">  <img src="../img/TommyHilfiger.png"  class="img-fluid" ></div>
     <p class="job-descr">
     <span class="year-company">2011-2012, Netherlands</span><br/>
@@ -181,7 +190,8 @@ I'm currently based in Italy.
 <!-- Start third Row Job Career Boxes -->
 <div class="row m-2 text-center ">
 
-<div class="col-lg bg-white m-2 my-cv">
+<div class="col-lg bg-white m-2 my-cv" data-aos="fade-up" data-aos-delay="50"
+    data-aos-duration="1000">
 <div class="logo mb-logo">  <img src="../img/Zerogrey.png"  class="img-fluid" ></div>
     <p class="job-descr">
     <span class="year-company">2010-2011, Ireland</span><br/>
@@ -190,7 +200,8 @@ I'm currently based in Italy.
     </p>
 </div>
 
-<div class="col-lg bg-white m-2  my-cv">
+<div class="col-lg bg-white m-2  my-cv" data-aos="fade-up" data-aos-delay="50"
+    data-aos-duration="1000">
 <div class="logo mb-logo">  <img src="../img/Santoni.png"  class="img-fluid" ></div>
     <p class="job-descr">
     <span class="year-company">2008-2010, Italy</span><br/>
@@ -199,22 +210,22 @@ I'm currently based in Italy.
     </p>
 </div>
 
-<div class="col-lg bg-white m-2 my-cv">
+<div class="col-lg bg-white m-2 my-cv" data-aos="fade-up" data-aos-delay="50"
+    data-aos-duration="1000">
    <img src="../img/Urbino.png"  class="img-fluid" >
     <p class="job-descr">
     <span class="year-company">2007-2008, Italy</span><br/>
     <b>Marketing Consultant</b><br/>
-   <span class="year-company"> 2006-2008</span> <br/>
-    <b>Master Degree in Marketing</b><br/>
-   <span class="year-company">  2003-2006 </span><br/>
-    <b>Degree in Marketing</b>
+   <span class="year-company"> 2003-2008</span> <br/>
+    <b>Master Degree +
+    Degree in Marketing</b>
     </p>
 </div>
 </div>
 <!-- End third Row Job Career Boxes -->
 
 <!-- Triangle decoration -->
-    <div class="triangle-left"></div>
+    <div class="triangle-left mt-5"></div>
 
 
 
@@ -222,34 +233,40 @@ I'm currently based in Italy.
 <div class="row p-2">
     <div class="col-lg  p-2 "> 
     <div class="text-center  maxi-headline p-2">
-        Tools I use...
+        Tools I use the most...
     </div>
-        <h3 class="text-center ml-1 mr-1 p-5" id="about">Google Ads, Facebook ads, Linkedin ads, Landingi, Wordpress, Active Campaign, Newsletters, Zapier, Google Analytics, Hotjar, Google Optimize, Google Data Studio, Google Tag Manager.
-        <br/> On a more <span class="highlighted-word">tech side</span>, I have a basic knowledge of: HTML, CSS, JS, React and tools like VSCode, Git, GitHub, Bootstrap, API's.
+        <h3 class="text-center ml-1 mr-1 p-5" id="about">Google Ads, Facebook ads, Linkedin ads, Landingi, Wordpress, Active Campaign, Newsletters, Zapier, Google Analytics, Hotjar, Google Optimize, Google Data Studio, Google Tag Manager and all Affiliate Networks platforms.
+        <br/> <br/>  On a more <span class="highlighted-word">tech side</span>, I have a basic knowledge of: HTML, CSS, JS, React and tools like VSCode, Git, GitHub, Bootstrap, API's.
 </div>
 </div>
-<!-- Triangle decoration -->
-    <div class="triangle-down d-block m-5"></div>
+
 
 
 <!-- CTA Buttons -->
 
-    <div class="m-5"></div>
+    <div class="divider"> </div>
 
-        <div class="row text-center">
-            <div class="col-lg-4 mb-4 button-container"><a class="button" href="/pages/about.html" title="Contact Roberta Francesconi">
-            ABOUT ME</a></div><br>
-            <div class="col-lg-4 mb-4 button-container"><a class="button" href="/pages/projects.html" title="Contact Roberta Francesconi">
+        <div class="row m-5 hp-link text-center">
+            <div class="col-sm-4 mb-4 hp-link"><a class="hp-link" href="../index.html" title="Contact Roberta Francesconi">
+            HOME</a></div><br>
+            <div class="col-sm-4 mb-4 hp-link"><a class="hp-link" href="/pages/projects.html" title="Contact Roberta Francesconi">
             PROJECTS</a></div><br>
-            <div class="col-lg-4 mb-4 button-container"><a class="button" href="/pages/contact.html" title="Contact Roberta Francesconi">
+            <div class="col-sm-4 mb-4 hp-link"><a class="hp-link" href="/pages/contact.html" title="Contact Roberta Francesconi">
             CONTACTS</a></div><br>
             </div>
         </div>
 
 
-<!-- Footer -->
-<div class="footer">© 2021 Proudly built with <span class="heart">♥︎</span> by me </div>
+<!-- Back to Top -->
+<div class="social-icon back-to-top"><a href="#about"class="email-link  fas fa-chevron-circle-up fa-2x"></a></div>
 
+
+<!-- Footer -->
+   
+<img src="../img/R.png" alt="Roberta profile picture" class="logo-r">
+    
+<div class="footer">
+© 2021 proudly handmade with <i class="far fa-heart heart"></i> by me</div>
 </div>
 </body>
 </html>
