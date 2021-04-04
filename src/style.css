@@ -199,19 +199,7 @@ font-size: 35px !important;
 
 
 .social-icon-bar{
-  position: absolute !important;
-  display: flex !important;
-  justify-content: center !important;
-  right:25% !important;
-  bottom: 10% !important;
-  overflow: hidden;
-  padding: 20px;
-  opacity: 40%;
-    
-}
-
-.social-icon-bar i {
-  padding: 10px;
+ display: none;
     
 }
 
