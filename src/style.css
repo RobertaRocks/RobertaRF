@@ -84,7 +84,21 @@ position: relative;
 color:#838383;
 }
 
+.hp-link-mobile {
+font-family: var(--secondary-font) ;
+cursor: pointer;
+text-decoration: underline;
+padding-left: 5px;
+position: relative;
+color:#838383;
+}
+
 .hp-link:hover{
+color:#D9ADAD;
+text-decoration: none;
+}
+
+.hp-link-mobile:hover{
 color:#D9ADAD;
 text-decoration: none;
 }
@@ -130,7 +144,7 @@ color: white;
 @media (max-width: 576px ) {
 
 .homepage-hero {
-margin-left: -18px;
+margin-left: 0px;
 padding-top: 100px;
 padding-left: 0px;
 padding-bottom:80px;}
@@ -145,6 +159,13 @@ text-align: left;
 
 .hp-link {
 padding-left: 25px;
+}
+
+.hp-link-mobile {
+text-align: center !important;
+display: block;
+margin: 0 auto ! important;
+padding:0px !important;
 }
 
 #particles-js {
